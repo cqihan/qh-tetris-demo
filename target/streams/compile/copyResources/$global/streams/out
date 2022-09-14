@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game\tetris,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game\tetris)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game\tetris\view,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game\tetris\view)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game\tetris\view\1.png,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game\tetris\view\1.png)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game\tetris\view\2.png,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game\tetris\view\2.png)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game\tetris\view\3.png,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game\tetris\view\3.png)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game\tetris\view\4.png,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game\tetris\view\4.png)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game\tetris\view\5.png,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game\tetris\view\5.png)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game\tetris\view\6.png,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game\tetris\view\6.png)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game\tetris\view\7.png,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game\tetris\view\7.png)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game\tetris\view\TetrisGrid.fxml,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game\tetris\view\TetrisGrid.fxml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Khoo\Desktop\Tetris\src\main\resources\edu\game\tetris\view\tetris_style.css,C:\Users\Khoo\Desktop\Tetris\target\scala-2.12\classes\edu\game\tetris\view\tetris_style.css)[0m

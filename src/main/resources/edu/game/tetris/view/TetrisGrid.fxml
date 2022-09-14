@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="850.0" prefWidth="700.0" styleClass="tetrisApp" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.game.tetris.GUIController">
+   <children>
+      <GridPane fx:id="tetroPane" styleClass="tetroBoard" />
+
+      <BorderPane prefHeight="200.0" prefWidth="300.0" styleClass="tetrisBoard">
+         <center>
+            <GridPane fx:id="boardPane" focusTraversable="true" BorderPane.alignment="CENTER">
+              
+            </GridPane>
+         </center>
+      </BorderPane>
+      <VBox layoutX="450" prefHeight="744.0" prefWidth="240.0">
+         <children>
+            <Label graphicTextGap="6.0" text="Next: ">
+               <VBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </VBox.margin>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#fff53d" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Impact" size="30.0" />
+               </font></Label>
+            <Pane prefHeight="150.0" prefWidth="150.0" style="-fx-border-color: yellow; -fx-border-width: 10;">
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </VBox.margin>
+               <children>
+                  <GridPane fx:id="previewPane" layoutX="38.0" layoutY="40.0" prefHeight="65.0" prefWidth="120.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="61.0" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                  </GridPane>
+               </children>
+            </Pane>
+            <Label graphicTextGap="6.0" text="Score:">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#fff53d" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Impact" size="30.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" top="20.0" />
+               </padding>
+            </Label>
+            <Label graphicTextGap="6.0" text="0">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#fff53d" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Impact" size="30.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label graphicTextGap="6.0" text="Lines Cleared:">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#fff53d" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Impact" size="30.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="lineLabel" graphicTextGap="6.0" text="0">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#fff53d" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Impact" size="30.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+
+   <stylesheets>
+	  <URL value="@tetris_style.css" />
+	</stylesheets>
+</Pane>

@@ -1,0 +1,13 @@
+.tetrisBoard {
+    -fx-border-width: 10px;
+    -fx-border-color: gray;
+}
+
+.tetroBoard {
+    -fx-border-width: 10px;
+    -fx-border-color: transparent;
+}
+
+.tetrisApp {
+    -fx-background-color: black;
+}
